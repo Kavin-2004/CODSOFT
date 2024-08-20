@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Student Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header h2 {
+            margin: 5px 0;
+            font-size: 1.5em;
+            color: #777;
+        }
+        .section {
+            margin-top: 30px;
+        }
+        .section h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            color: #333;
+        }
+        .section p, .section ul {
+            margin: 0;
+            padding: 0;
+            line-height: 1.6em;
+        }
+        .section ul {
+            list-style: none;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .section ul li::before {
+            content: "•";
+            color: #333;
+            margin-right: 10px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <img src= "image1.jpeg" height="250">
+            <h1>KAVIN.M</h1>
+            <h2>College Student | Major in Artificial Intelligence with DataAnalystics</h2>
+            <p>Email: kavin8975@gmail.com | Phone: 8667373220 | LinkedIn:  kavin8975@gmail.com</p>
+        </div>
+        <!-- About me-->
+        <div class="section">
+            <h3>About Me</h3>
+            <p>Iam a motivated and technical skilled student. i like to do editing. Proficient in emedded systems,and in designing .</p>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h3>Education</h3>
+            <p><strong>Anna University</strong>, City, State</p>
+            <p>Bachelor of BTech in Johnson Institute,  Graduation: 2022-2026</p>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="section">
+            <h3>Experience</h3>
+            <p><strong>Internship at CODSOFT Company</strong>, INDIA, TAMILNADU ( Aug 2024)</p>
+            
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h3>Skills</h3>
+            <ul>
+                <li>Sports(NCC)</li>
+                <li>Familiar with HTML, python</li>
+                <li>Strong communication and teamwork skills</li>
+                <li>Video editing</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h3>Projects</h3>
+            <p><strong>Project Hand gesture Light</strong></p>
+        </div>
+        <!--Hobbies-->
+        <div class="section">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Music</li>
+                <li>Sports</li>
+                <li>Reading Novels</li>
+            </ul>
+        </div>
+
+        
+</body>
+</html>
